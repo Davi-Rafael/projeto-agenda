@@ -5,8 +5,9 @@
 Para rodar basta rodar clonar o código na sua máquina, instalar a biblioteca 'requests' e rodar o arquivo main.py:
 
 ```
-pip install requests
 git clone https://github.com/Davi-Rafael/projeto-agenda.git
+cd projeto-agenda
+pip install requests
 python main.py
 ```
 
@@ -33,14 +34,14 @@ self.remover_evento(evento, dia)
 ``` python
 self.relatorio_dia(dia)
 ```
-#### Printa uma lista com os eventos que ocorrem naquele dia. Se não houver eventos no dia, printa uma lista vazia. E também se conecta a API para dar o clima estimado em Recife naquele dia.
+#### Printa uma lista com os eventos que ocorrem naquele dia. Se não houver eventos no dia, há um print explicitando isso. E também se conecta a API para dar o clima estimado em Recife naquele dia.
 
 ### 4.  dia_evento: segue o padrão a seguir, no qual 'evento' é uma string:
 
 ``` python
 self.dia_evento(evento)
 ```
-#### Printa uma lista com os dias que aquele evento ocorre. Se não houver dias com o evento, printa uma lista vazia.
+#### Printa uma lista com os dias que aquele evento ocorre. Se não houver dias com o evento, há um print explicitando isso. E também se conecta a API para dar o clima estimado em Recife nos dias dos eventos.
 
 ### 5.  mostrar_calendario: printa um relatório com todos os dias e eventos:
 
