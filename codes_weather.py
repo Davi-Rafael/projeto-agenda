@@ -31,7 +31,7 @@ codigos = {
 }
 
 def traducao_codigo(codigo):
-    if codigo == str:
+    if type(codigo) == str:
         return(codigos.get(codigo))
     else:
         return(codigos.get(f'{codigo}'))
