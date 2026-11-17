@@ -1,8 +1,8 @@
 # O que é:
-É um pequeno projeto que fiz para ter um primeiro contato com APIs e para praticar minha POO. Ele usa a API Open-Meteo e consegue dar uma previsão do clima médio de um certo dia em Recife/Pernambuco.
+É um pequeno projeto que fiz para ter um primeiro contato com APIs e para praticar minha POO. Ele usa a API Open-Meteo e consegue dar uma previsão do clima de um certo dia em Recife/Pernambuco. As previsões vão do dia atual até 2 semanas no futuro, e os dias seguem o formato AAAA-MM-DD.
 
 ## Como rodar:
-Para rodar basta rodar clonar o código na sua máquina, instalar a biblioteca 'requests' e rodar o arquivo main.py:
+Para rodar basta clonar o código na sua máquina, instalar a biblioteca 'requests' e rodar o arquivo main.py:
 
 ```
 git clone https://github.com/Davi-Rafael/projeto-agenda.git
