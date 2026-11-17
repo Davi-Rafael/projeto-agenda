@@ -36,10 +36,10 @@ self.relatorio_dia(dia)
 ```
 #### Printa uma lista com os eventos que ocorrem naquele dia. Se não houver eventos no dia, há um print explicitando isso. E também se conecta a API para dar o clima estimado em Recife naquele dia.
 
-### 4.  dia_evento: segue o padrão a seguir, no qual 'evento' é uma string:
+### 4.  detalhe_evento: segue o padrão a seguir, no qual 'evento' é uma string:
 
 ``` python
-self.dia_evento(evento)
+self.detalhe_evento(evento)
 ```
 #### Printa uma lista com os dias que aquele evento ocorre. Se não houver dias com o evento, há um print explicitando isso. E também se conecta a API para dar o clima estimado em Recife nos dias dos eventos.
 
