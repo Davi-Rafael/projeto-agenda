@@ -10,37 +10,40 @@ git clone https://github.com/Davi-Rafael/projeto-agenda.git
 python main.py
 ```
 
+## Métodos da agenda:
+Existem os seguintes métodos na agenda: adicionar_evento, remover_evento, relatorio_dia, detalhe_evento, mostrar_calendario.
+
 ## O que cada método faz:
-### 1. adicionarEvento: segue o padrão a seguir, no qual 'evento' e 'dia' são strings:
+### 1. adicionar_evento: segue o padrão a seguir, no qual 'evento' e 'dia' são strings:
 
 ``` python
-self.adicionarEvento(evento, dia)
+self.adicionar_evento(evento, dia)
 ```
 #### Ele adiciona um evento no seu calendário, a não ser que já exista um evento com mesmo nome no mesmo dia.
 
-### 2. removerEvento: segue o padrão a seguir, no qual 'evento' e 'dia' são strings:
+### 2. remover_evento: segue o padrão a seguir, no qual 'evento' e 'dia' são strings:
 
 ``` python
-self.removerEvento(evento, dia)
+self.remover_evento(evento, dia)
 ```
 #### Ele remove um evento que ocorreria naquele dia, a não ser que não exista o evento, ou ele não exista naquele dia específico.
 
-### 3. relatorioDia: segue o padrão a seguir, no qual 'dia' é uma string:
+### 3. relatorio_dia: segue o padrão a seguir, no qual 'dia' é uma string:
 
 ``` python
-self.relatorioDia(dia)
+self.relatorio_dia(dia)
 ```
 #### Printa uma lista com os eventos que ocorrem naquele dia. Se não houver eventos no dia, printa uma lista vazia. E também se conecta a API para dar o clima estimado em Recife naquele dia.
 
-### 4.  diaEvento: segue o padrão a seguir, no qual 'evento' é uma string:
+### 4.  dia_evento: segue o padrão a seguir, no qual 'evento' é uma string:
 
 ``` python
-self.diaEvento(evento)
+self.dia_evento(evento)
 ```
 #### Printa uma lista com os dias que aquele evento ocorre. Se não houver dias com o evento, printa uma lista vazia.
 
-### 5.  mostrarCalendario: printa um relatório com todos os dias e eventos:
+### 5.  mostrar_calendario: printa um relatório com todos os dias e eventos:
 
 ``` python
-self.mostrarCalendario()
+self.mostrar_calendario()
 ```
