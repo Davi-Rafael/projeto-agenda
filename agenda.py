@@ -4,17 +4,17 @@ from codes_weather import traducao_codigo
 dia_atual = datetime.date.today()
 
 def checar_dia(dia):
-    dia_tipodia = datetime.date.strptime(dia, '%Y-%m-%d')
+    dia_tipodia = datetime.datetime.strptime(dia, '%Y-%m-%d').date()
     diferenca = dia_tipodia - dia_atual
     diferenca = diferenca.days
-    if diferenca > 0 and diferenca <= 16:
+    if diferenca >= 0 and diferenca <= 15:
         index = dados['daily']['time'].index(dia)
         clima = dados['daily']['weather_code'][index]
         print(f'O clima do dia: {dia}, em Recife, está previsto para ser: {traducao_codigo(clima)}')
     else:
         print(f'Infelizmente o dia: {dia}, não se encaixa no período disponível de previsão.')
 
-class agenda:
+class Agenda:
     def __init__(self):
         self.calendario = {}
 
