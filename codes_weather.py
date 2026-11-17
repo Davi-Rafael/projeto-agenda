@@ -1,38 +1,38 @@
 codigos = {
-	"0": "Clear sky",
-	"1": "Mainly clear",
-	"2": "Partly cloudy",
-	"3": "Overcast",
-	"45": "Fog",
-	"48": "Depositing rime fog",
-	"51": "Light drizzle",
-	"53": "Moderate drizzle",
-	"55": "Dense drizzle",
-	"56": "Light freezing drizzle",
-	"57": "Dense freezing drizzle",
-	"61": "Slight rain",
-	"63": "Moderate rain",
-	"65": "Heavy rain",
-	"66": "Light freezing rain",
-	"67": "Heavy freezing rain",
-	"71": "Slight snowfall",
-	"73": "Moderate snowfall",
-	"75": "Heavy snowfall",
-	"77": "Snow grains",
-	"80": "Slight rain showers",
-	"81": "Moderate rain showers",
-	"82": "Violent rain showers",
-	"85": "Slight snow showers",
-	"86": "Heavy snow showers",
-	"95": "Thunderstorm",
-	"96": "Thunderstorm with slight hail",
-	"97": "Heavy thunderstorm",
-	"99": "Thunderstorm with heavy hail"
+	"0": "Céu limpo",
+	"1": "Predominantemente limpo",
+	"2": "Parcialmente nublado",
+	"3": "Nublado",
+	"45": "Neblina",
+	"48": "Neblina com geada",
+	"51": "Garoa fraca",
+	"53": "Garoa moderada",
+	"55": "Garoa intensa",
+	"56": "Garoa congelante fraca",
+	"57": "Garoa congelante intensa",
+	"61": "Chuva fraca",
+	"63": "Chuva moderada",
+	"65": "Chuva forte",
+	"66": "Chuva congelante fraca",
+	"67": "Chuva congelante forte",
+	"71": "Neve fraca",
+	"73": "Neve moderada",
+	"75": "Neve forte",
+	"77": "Grãos de neve",
+	"80": "Pancadas de chuva fracas",
+	"81": "Pancadas de chuva moderadas",
+	"82": "Pancadas de chuva violentas",
+	"85": "Pancadas de neve fracas",
+	"86": "Pancadas de neve fortes",
+	"95": "Tempestade com trovoadas",
+	"96": "Tempestade com trovoadas e granizo fraco",
+	"97": "Tempestade forte com trovoadas",
+	"99": "Tempestade com trovoadas e granizo forte"
 }
 
 def traducao_codigo(codigo):
     if codigo == str:
-        return(codigos[codigo])
+        return(codigos.get(codigo))
     else:
-        return(codigos[f'{codigo}'])
+        return(codigos.get(f'{codigo}'))
 
