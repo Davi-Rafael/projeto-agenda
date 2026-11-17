@@ -5,8 +5,9 @@
 Para rodar basta rodar clonar o código na sua máquina, instalar a biblioteca 'requests' e rodar o arquivo main.py:
 
 ```
-pip install requests
 git clone https://github.com/Davi-Rafael/projeto-agenda.git
+cd projeto-agenda
+pip install requests
 python main.py
 ```
 
